@@ -1,0 +1,3 @@
+2017-06-02 20:41:55,772 INFO  [main] text.Test (Test.java:13) - info
+2017-06-02 20:44:31,880 ERROR [main] dao.DbHelper (DbHelper.java:36) - com.mysql.jdbc.Driver
+2017-06-03 11:22:58,932 ERROR [main] dao.DbHelper (DbHelper.java:36) - com.mysql.jdbc.Driver

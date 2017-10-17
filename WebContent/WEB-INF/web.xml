@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0" metadata-complete="true">
+
+
+	<servlet>
+		<servlet-name>addResfoodServlet</servlet-name>
+		<servlet-class>com.yc.web.servlets.AddResfoodServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>resuserServlet</servlet-name>
+		<servlet-class>com.yc.web.servlets.ResuserServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>resorderServlet</servlet-name>
+		<servlet-class>com.yc.web.servlets.ResorderServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>resfoodServlet</servlet-name>
+		<servlet-class>com.yc.web.servlets.ResfoodServlet</servlet-class>
+	</servlet>
+	
+	
+	<servlet>
+		<servlet-name>custResorderServlet</servlet-name>
+		<servlet-class>com.yc.web.servlets.CustResorderServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>resorderServlet</servlet-name>
+		<url-pattern>/cust/resorder.action</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>resfoodServlet</servlet-name>
+		<url-pattern>/resfood.action</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>resorderServlet</servlet-name>
+		<url-pattern>/resorder.action</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>resuserServlet</servlet-name>
+		<url-pattern>/resuser.action</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>addResfoodServlet</servlet-name>
+		<url-pattern>/back/addrefood.action</url-pattern>
+	</servlet-mapping>
+	
+
+
+</web-app>
